@@ -2,6 +2,10 @@
 
 Кастомный виджет-дашборд для отображения профиля Steam в стиле киберпанк. Приложение создано на Flutter и идеально подходит для использования на планшетах или в качестве кастомной панели.
 
+## 📸 Демонстрация
+
+![Демонстрация работы](assets/demo.png)
+
 ## ✨ Особенности
 
 * **Кастомный дизайн:** Неоновый стиль, шрифт CP_Revenge и фоновые изображения.
@@ -40,3 +44,6 @@ class SteamAPI {
   static String getOwnedGamesUrl(String id) => "$_baseUrl/IPlayerService/GetOwnedGames/v1/?key=$_key&steamid=$id&include_appinfo=true&include_played_free_games=true";
   static String getSteamLevelUrl(String id) => "$_baseUrl/IPlayerService/GetSteamLevel/v1/?key=$_key&steamid=$id";
 }
+```
+
+LST inc., 2026
