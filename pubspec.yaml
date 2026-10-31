@@ -1,0 +1,37 @@
+name: lst_steam_display
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0+1
+
+environment:
+  sdk: ^3.11.5
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.2.0
+  shared_preferences: ^2.2.2
+  url_launcher: ^6.2.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  flutter_launcher_icons: "^0.14.4"
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/bg.png
+    - assets/avatar_glitch/1.png
+    - assets/avatar_glitch/2.png
+    - assets/avatar_glitch/3.png
+  fonts:
+    - family: CP_Revenge
+      fonts:
+        - asset: assets/CP_Revenge.ttf
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/logo.png"
